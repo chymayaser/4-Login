@@ -1,0 +1,149 @@
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root
+{
+    --black:#000;
+    --gray:gray;
+    --violet:rgb(173, 0, 150);
+    --blue-dark:rgb(0, 0, 24);
+    --white:#fff;
+}
+
+
+body
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--blue-dark);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.logo a
+{
+    color: var(--white);
+}
+
+nav
+{
+    padding: 30px 30px;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    background-color: transparent;
+}
+.sign
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sign-up h1
+{
+    font-size: 35px;
+    padding-bottom: 30px;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.sign-up p
+{
+    font-size: 18px;
+    padding-bottom: 30px;
+    color: var(--white);
+
+}
+
+.log
+{
+    color: rgb(212, 0, 184);
+}
+
+.form label
+{
+    color: var(--white);
+    font-size: 14px;
+}
+
+.form input
+{
+    border: none;
+    border-bottom: 2px solid var(--white);
+    padding: 20px 0px;
+    padding-right: 200px;
+    background-color: transparent;
+}
+
+.form ::placeholder
+{
+    color: var(--white);
+    font-size: 17px;
+}
+
+
+.btn
+{
+    padding: 15px 100px;
+    border-radius: 50px;
+    background-color: var(--violet);
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 20px #00000060;
+}
+
+.btn a
+{
+    color: var(--white);
+}
+
+
+.forget
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget a
+{
+    color: var(--white);
+    font-size: 13px;
+}
+
+.check label
+{
+    color: var(--white);
+    font-size: 13px;
+
+}
+
+.icons p
+{
+    color: var(--white);
+}
+.icons
+{
+    text-align: center;
+    padding: 30px 0px;
+    line-height: 60px;
+}
+
+.icons img
+{
+    padding: 0 10px;
+    width: 60px;
+    cursor: pointer;
+}
